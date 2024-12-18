@@ -1,0 +1,49 @@
+{
+    "source_workspace": "xxx",
+    "target_workspace": "xxx",
+    "use_subset": true,
+    "subset_coids": [
+        {
+            "db_name": "xxx",
+            "db_type": "SQL Server",
+            "db_server": "xxx",
+            "report_name_prefix": "ACEME",
+            "coid": "bw6XAoimgX7QTtqEt",
+            "is_scheduled_refresh": false,
+            "refresh_schedule": {
+                "days": [
+                    "Thursday"
+                ],
+                "times": [
+                    "02:00"
+                ],
+                "localTimeZoneId": "UTC"
+            }
+        }
+    ],
+    "dataset_report_mapping": {
+        "GTM Suite - Dataset - Automatic Data Enhancement.pbix": ["GTM Suite - Automatic Data Enhancement Report"],
+        "GTM Suite - Dataset - Sales Performance.pbix":  ["GTM Suite - Management Report",
+                                                          "GTM Suite - Strategy Report",
+                                                          "GTM Suite - Tactical Report",
+                                                          "GTM Suite - Utility Box Report"
+                                                      ]
+    },
+    "coids": [
+        {
+            "db_name": "xxx",
+            "db_server": "xxx",
+            "db_type": "SQL Server",
+            "report_name_prefix": "0",
+            "coid": "bw6XAoimgX7QTtqEt",
+            "is_scheduled_refresh": true,
+            "refresh_schedule": {
+                "days": [
+                    "Thursday"],
+                "times": [
+                    "02:00"],
+                "localTimeZoneId": "UTC"
+            }
+        }
+    ]
+}
